@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on a-sky-boy</title>
+        <link>https://a-sky-boy.github.io/hugo-main/page/</link>
+        <description>Recent content in Pages on a-sky-boy</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>a-sky-boy</copyright>
+        <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://a-sky-boy.github.io/hugo-main/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>存档</title>
+        <link>https://a-sky-boy.github.io/hugo-main/archives/</link>
+        <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://a-sky-boy.github.io/hugo-main/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://a-sky-boy.github.io/hugo-main/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://a-sky-boy.github.io/hugo-main/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>链接</title>
+        <link>https://a-sky-boy.github.io/hugo-main/%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://a-sky-boy.github.io/hugo-main/%E9%93%BE%E6%8E%A5/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://a-sky-boy.github.io/hugo-main/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://a-sky-boy.github.io/hugo-main/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
