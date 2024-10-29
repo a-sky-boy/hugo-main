@@ -28,6 +28,19 @@
                 href="https://a-sky-boy.github.io/hugo-main/en/p/test-chinese/"
                 />
   </url><url>
+    <loc>https://a-sky-boy.github.io/hugo-main/en/p/test-chinese/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://a-sky-boy.github.io/hugo-main/p/test-chinese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://a-sky-boy.github.io/hugo-main/en/p/test-chinese/"
+                />
+  </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/en/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
