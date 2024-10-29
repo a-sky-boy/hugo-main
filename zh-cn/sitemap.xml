@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://a-sky-boy.github.io/hugo-main/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,19 +13,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://a-sky-boy.github.io/hugo-main/"
-                />
-  </url><url>
-    <loc>https://a-sky-boy.github.io/hugo-main/post/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://a-sky-boy.github.io/hugo-main/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://a-sky-boy.github.io/hugo-main/post/"
                 />
   </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/page/</loc>
@@ -60,17 +47,17 @@
                 href="https://a-sky-boy.github.io/hugo-main/p/test-chinese/"
                 />
   </url><url>
-    <loc>https://a-sky-boy.github.io/hugo-main/p/test-chinese/</loc>
+    <loc>https://a-sky-boy.github.io/hugo-main/post/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://a-sky-boy.github.io/hugo-main/en/p/test-chinese/"
+                href="https://a-sky-boy.github.io/hugo-main/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://a-sky-boy.github.io/hugo-main/p/test-chinese/"
+                href="https://a-sky-boy.github.io/hugo-main/post/"
                 />
   </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/categories/test/</loc>
@@ -153,6 +140,8 @@
   </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://a-sky-boy.github.io/hugo-main/p/first-%E7%AC%AC%E4%B8%89%E4%B8%AA/</loc>
   </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
