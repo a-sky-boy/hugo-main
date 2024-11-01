@@ -1,3 +1,13 @@
 {{ $sass := resources.Get "scss/style.scss" }}
 {{ $style := $sass | toCSS | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<!-- 引入新的 CSS 文件 -->
+{{ $mdmdt := resources.Get "css/mdmdt.css" | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $mdmdt.RelPermalink }}">
+
+{{ $mdmdtDark := resources.Get "css/mdmdt-dark.css" | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $mdmdtDark.RelPermalink }}">
+
+{{ $mdmdtLight := resources.Get "css/mdmdt-light.css" | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $mdmdtLight.RelPermalink }}">
