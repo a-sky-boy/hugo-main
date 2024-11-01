@@ -3,11 +3,11 @@
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 <!-- 引入新的 CSS 文件 -->
-{{ $mdmdt := resources.Get "css/mdmdt.css" | minify | resources.Fingerprint "sha256" }}
+{{ $mdmdt := resources.Get "scss/mdmdt.css" | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $mdmdt.RelPermalink }}">
 
-{{ $mdmdtDark := resources.Get "css/mdmdt-dark.css" | minify | resources.Fingerprint "sha256" }}
+{{ $mdmdtDark := resources.Get "scss/mdmdt-dark.css" | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $mdmdtDark.RelPermalink }}">
 
-{{ $mdmdtLight := resources.Get "css/mdmdt-light.css" | minify | resources.Fingerprint "sha256" }}
+{{ $mdmdtLight := resources.Get "scss/mdmdt-light.css" | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $mdmdtLight.RelPermalink }}">
