@@ -9,6 +9,11 @@ links:
     description: hugo+github搭建个人博客教学网站.
     website: https://letere-gzj.github.io/hugo-stack/p/hugo/custom-blog/
     image: https://letere-gzj.github.io/hugo-stack/img/avatar_hu6786984924540402544.jpg
+  - title: GPT
+    description: GPT账号共享站-[云端超算]
+    website: www.chatopens.com
+    image: https://ts3.cn.mm.bing.net/th?id=OIP-C.LGQzCUqdU5Lcw2SSvozu2AHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2
+
 menu:
     main: 
         weight: -50
