@@ -20,9 +20,7 @@
             {{- end -}}
             {{- block "right-sidebar" . -}}{{ end }}
             <main class="main full-width">
-                <div class="markdown-content">
-                    {{- block "main" . }}{{- end }}
-                </div>
+                {{- block "main" . }}{{- end }}
             </main>
         </div>
         {{ partial "footer/include.html" . }}
