@@ -436,7 +436,17 @@ $$</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://a-sky-boy.github.io/hugo-main/p/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;p&gt;title = &amp;ldquo;Support&amp;rdquo;
+date = &amp;ldquo;2024-10-05&amp;rdquo;
+description = &amp;ldquo;Guide to  usage in Hugo&amp;rdquo;
+categories = [
+&amp;ldquo;Test&amp;rdquo;
+]
+tags = [
+&amp;ldquo;emoji&amp;rdquo;,
+]&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;莱特雷-letere&lt;/a&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://github.com/a-sky-boy/hugo-main&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/a-sky-boy/hugo-main&lt;/a&gt;&lt;/p&gt;
