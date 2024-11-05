@@ -7,7 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>a-sky-boy</copyright>
-        <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://a-sky-boy.github.io/hugo-main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://a-sky-boy.github.io/hugo-main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About Me</title>
+        <link>https://a-sky-boy.github.io/hugo-main/p/about-me/</link>
+        <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://a-sky-boy.github.io/hugo-main/p/about-me/</guid>
+        <description>&lt;p&gt;This is the content for the about section.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>存档</title>
         <link>https://a-sky-boy.github.io/hugo-main/archives/</link>
         <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
