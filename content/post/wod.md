@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "wod.md"
 date: 2024-11-05
 draft: false
 ---
