@@ -1,13 +1,9 @@
-title = "Support"
-date = "2024-10-05"
-description = "Guide to  usage in Hugo"
-categories = [
-    "Test"
-]
-tags = [
-    "emoji",
-]
 
+---
+title: 我的笔记示例-Guide to  usage in Hugo
+date: 2025-08-21
+categories:
+  - 笔记
 ---
 
 [莱特雷-letere](https://letere-gzj.github.io/hugo-stack/)
