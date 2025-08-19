@@ -1,3 +1,10 @@
+---
+title: 我的笔记示例的
+date: 2025-08-21
+categories:
+  - 笔记
+---
+
 function H=H_BHZ(kx,ky)
 a=1;
 A=-14.48; B=-18; C=-0.018; D=-0.594;
