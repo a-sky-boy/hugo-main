@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://a-sky-boy.github.io/hugo-main/p/'>
 
-<link rel="stylesheet" href="/hugo-main/scss/style.min.3f1de5f42ebfbdade27440702eb9216ee13f1b79fcd1601504d30a4f65accf03.css"><meta property='og:title' content="">
+<link rel="stylesheet" href="/hugo-main/scss/style.min.5e51eac78c928824a092e41b2f1d6b7d08d0974b324fa6eb1d5a7f80e9c38c66.css"><meta property='og:title' content="">
 <meta property='og:description' content="title = &ldquo;Support&rdquo; date = &ldquo;2024-10-05&rdquo; description = &ldquo;Guide to usage in Hugo&rdquo; categories = [ &ldquo;Test&rdquo; ] tags = [ &ldquo;emoji&rdquo;, ]\n莱特雷-letere https://github.com/a-sky-boy/hugo-main\n[!info] 我用hugo -D后如何将本地文件生成的public文件夹内容推送到github仓库(直接给仓库生成网页后显示404，原因是生成的public文件在本地，里面有index.html文件，需要将这个文件夹的内容上传到仓库的根目录下)\n在cmd 终端运行代码时有时代码的前缀会消失（比如F:\\hugo\\dev\\public&gt;）快捷键Ctrl+C 可以恢复）\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 %导航到 `public` 文件夹 cd public %**初始化 Git 仓库**（如果还没有初始化） git init %**添加远程仓库**（如果还没有添加）： %&lt;你的GitHub仓库URL&gt; 格式：htttps://~~ git remote add origin &lt;你的GitHub仓库URL&gt; %**添加所有文件到 Git**： git add . %**提交更改**： git commit -m &#34;Deploy Hugo site&#34; **推送到 GitHub**： git push -u origin main # 如果你的默认分支是 main 或者 git push -u origin master # 如果你的默认分支是 master [!tip] 报错代码：error: src refspec main does not match any error: src refspec # does not match any error: src refspec 如果你的默认分支是 does not match any error: src refspec main does not match any error: failed to push some refs to &lsquo;https://github.com/a-sky-boy/hugo-main'我用的就是main为啥报错\n">
 <meta property='og:url' content='https://a-sky-boy.github.io/hugo-main/p/'>
 <meta property='og:site_name' content='a-sky-boy'>
@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/hugo-main/img/avatar_hu12457263999282584843.png" width="300"
+                        <img src="/hugo-main/img/avatar_hu_6d3e79a7ea4e60e2.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -376,8 +376,7 @@ tags = [
 <blockquote>
 <p>[!info]
 我用hugo -D后如何将本地文件生成的public文件夹内容推送到github仓库(直接给仓库生成网页后显示404，原因是生成的public文件在本地，里面有index.html文件，需要将这个文件夹的内容上传到仓库的根目录下)</p>
-<p>在cmd 终端运行代码时有时代码的前缀会消失（比如F:\hugo\dev\public&gt;）快捷键Ctrl+C 可以恢复）</p>
-</blockquote>
+<p>在cmd 终端运行代码时有时代码的前缀会消失（比如F:\hugo\dev\public&gt;）快捷键Ctrl+C 可以恢复）</p></blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -425,8 +424,7 @@ tags = [
 </div><blockquote>
 <p>[!tip]
 报错代码：error: src refspec main does not match any error: src refspec # does not match any error: src refspec 如果你的默认分支是 does not match any error: src refspec main does not match any error: failed to push some refs to &lsquo;<a class="link" href="https://github.com/a-sky-boy/hugo-main%27"  target="_blank" rel="noopener"
-    >https://github.com/a-sky-boy/hugo-main'</a>我用的就是main为啥报错</p>
-</blockquote>
+    >https://github.com/a-sky-boy/hugo-main'</a>我用的就是main为啥报错</p></blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -479,8 +477,7 @@ tags = [
 <blockquote>
 <p>[!info]
 branch和master的区别
-<code>branch</code> 和 <code>master</code> 是 Git 中的两个概念，具体区别如下：</p>
-</blockquote>
+<code>branch</code> 和 <code>master</code> 是 Git 中的两个概念，具体区别如下：</p></blockquote>
 <ol>
 <li>
 <p><strong>branch（分支）</strong>：</p>
@@ -504,8 +501,7 @@ branch和master的区别
 To <a class="link" href="https://github.com/a-sky-boy/hugo-main"  target="_blank" rel="noopener"
     >https://github.com/a-sky-boy/hugo-main</a> ! [rejected] main -&gt; main (fetch first) error: failed to push some refs to &lsquo;<a class="link" href="https://github.com/a-sky-boy/hugo-main%27"  target="_blank" rel="noopener"
     >https://github.com/a-sky-boy/hugo-main'</a> hint: Updates were rejected because the remote contains work that you do not hint: have locally. This is usually caused by another repository pushing to hint: the same ref. If you want to integrate the remote changes, use hint: &lsquo;git pull&rsquo; before pushing again. hint: See the &lsquo;Note about fast-forwards&rsquo; in &lsquo;git push &ndash;help&rsquo; for details.为啥失败了
-这个错误提示表示你的本地 <code>main</code> 分支与远程 <code>main</code> 分支不同步，远程分支上有一些你本地没有的提交。要解决这个问题，你可以按照以下步骤操作：</p>
-</blockquote>
+这个错误提示表示你的本地 <code>main</code> 分支与远程 <code>main</code> 分支不同步，远程分支上有一些你本地没有的提交。要解决这个问题，你可以按照以下步骤操作：</p></blockquote>
 <ol>
 <li>
 <p><strong>拉取远程更改</strong>：
@@ -551,8 +547,7 @@ To <a class="link" href="https://github.com/a-sky-boy/hugo-main"  target="_blank
 <p>[!info]
 ! [rejected] main -&gt; main (non-fast-forward) error: failed to push some refs to &lsquo;<a class="link" href="https://github.com/a-sky-boy/hugo-main%27"  target="_blank" rel="noopener"
     >https://github.com/a-sky-boy/hugo-main'</a> hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. If you want to integrate the remote changes, hint: use &lsquo;git pull&rsquo; before pushing again. hint: See the &lsquo;Note about fast-forwards&rsquo; in &lsquo;git push &ndash;help&rsquo; for details.拉取远程后还是失败了
-如果你在拉取后仍然遇到 <code>non-fast-forward</code> 错误，可能是因为你的本地分支和远程分支有不同的提交历史。你可以尝试以下步骤：</p>
-</blockquote>
+如果你在拉取后仍然遇到 <code>non-fast-forward</code> 错误，可能是因为你的本地分支和远程分支有不同的提交历史。你可以尝试以下步骤：</p></blockquote>
 <ol>
 <li>
 <p><strong>拉取远程更改并合并</strong>：
@@ -606,8 +601,7 @@ To <a class="link" href="https://github.com/a-sky-boy/hugo-main"  target="_blank
 </div><p>确保在执行强制推送之前，已备份重要的更改！</p>
 <blockquote>
 <p>[!info]
-如果你在不同的设备上（如个人电脑和工作电脑）进行开发，并且在某一设备上推送了更改，但在另一设备上未拉取最新的远程更改。这种情况怎么解决</p>
-</blockquote>
+如果你在不同的设备上（如个人电脑和工作电脑）进行开发，并且在某一设备上推送了更改，但在另一设备上未拉取最新的远程更改。这种情况怎么解决</p></blockquote>
 <p>在不同设备上进行开发时，如果你在某一设备上推送了更改，而在另一设备上未拉取最新的远程更改，可以按照以下步骤解决：</p>
 <ol>
 <li>
@@ -663,8 +657,7 @@ To <a class="link" href="https://github.com/a-sky-boy/hugo-main"  target="_blank
 <p>通过这个流程，你确保了在不同设备上的代码保持同步，避免了覆盖其他人的更改。</p>
 <blockquote>
 <p>[!info]
-修改了hugo.yaml（我将原来的config.yaml删除改为了hugo.yaml）文件后怎么更新到网页</p>
-</blockquote>
+修改了hugo.yaml（我将原来的config.yaml删除改为了hugo.yaml）文件后怎么更新到网页</p></blockquote>
 <p>修改 <code>config.yaml</code> 文件后，要将更改更新到网页上，你需要重新生成网站并确保你的更改被应用。以下是具体步骤：</p>
 <ol>
 <li>
@@ -885,7 +878,9 @@ To <a class="link" href="https://github.com/a-sky-boy/hugo-main"  target="_blank
     <section class="copyright">
         &copy; 
         
-        2024 a-sky-boy
+            2024 - 
+        
+        2025 a-sky-boy
     </section>
     
     <section class="powerby">
