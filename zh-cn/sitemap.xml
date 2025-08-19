@@ -15,9 +15,6 @@
                 href="https://a-sky-boy.github.io/hugo-main/"
                 />
   </url><url>
-    <loc>https://a-sky-boy.github.io/hugo-main/p/about-me/</loc>
-    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/post/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,6 +27,9 @@
                 hreflang="zh-cn"
                 href="https://a-sky-boy.github.io/hugo-main/post/"
                 />
+  </url><url>
+    <loc>https://a-sky-boy.github.io/hugo-main/p/wod.md/</loc>
+    <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://a-sky-boy.github.io/hugo-main/page/</loc>
     <lastmod>2024-10-29T00:00:00+00:00</lastmod>
